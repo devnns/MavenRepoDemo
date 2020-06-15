@@ -1,7 +1,7 @@
 # MavenRepoDemo
 show how to upload you library(s) to  private maven repository
 
-#USAGE
+# USAGE
 
 ### 1. copy the "aar_upload.gradle" file located in the root project into your root project.
 
