@@ -4,9 +4,6 @@ buildscript {
     repositories {
         google()
         jcenter()
-        maven{
-            url 'http://localhost:8081/nexus3/repository/maven-public/'
-        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.2'
