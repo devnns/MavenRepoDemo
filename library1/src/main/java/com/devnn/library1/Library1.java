@@ -17,7 +17,7 @@ public class Library1 implements ILibrary {
     }
 
     public String call() {
-        String message = "unKnown";
+        String message = "";
         try {
             Class mClass = Class.forName("com.devnn.library2.Library2");
             Constructor constructor = mClass.getConstructor(Context.class);

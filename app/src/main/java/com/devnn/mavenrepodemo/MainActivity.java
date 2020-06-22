@@ -17,10 +17,12 @@ public class MainActivity extends AppCompatActivity {
 
         tvMessage = findViewById(R.id.main_text);
 
-        tvMessage.setText(Library1.hello());
+        Library1 library1=new Library1();
+
+        tvMessage.setText(library1.hello());
 
         tvMessage.append("\n");
 
-        tvMessage.append(Library1.call());
+        tvMessage.append(library1.call());
     }
 }
