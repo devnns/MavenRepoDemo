@@ -1,4 +1,4 @@
-package com.devnn.library1;
+package com.devnn.commonlibrary;
 
 import org.junit.Test;
 
